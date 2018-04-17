@@ -1,0 +1,23 @@
+{
+  "name": "fakamazon",
+  "version": "1.0.0",
+  "description": "CLI Fake Amazon using mySQL DB",
+  "main": "fakamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiriusScaper/fakamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiriusScaper/fakamazon/issues"
+  },
+  "homepage": "https://github.com/SiriusScaper/fakamazon#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
