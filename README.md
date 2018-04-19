@@ -2,4 +2,4 @@
 
 CLI Fake Amazon using mySQL DB
 
-![]('imgs/fake-amazon-cli.gif')
+![gif cli](/imgs/fake-amazon-cli.gif)
