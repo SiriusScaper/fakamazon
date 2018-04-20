@@ -78,7 +78,7 @@ function placeOrder(product, amount) {
 			if (itemStock < amount) {
 				console.log(`Insufficient stock for this product`);
 			} else {
-				console.log(product);
+				console.log(`${amount}  ${item}`);
 				const updateStock = parseFloat(itemStock) - parseFloat(amount);
 				con.query(
 					'UPDATE products SET stock_quantity = ' +
@@ -86,7 +86,7 @@ function placeOrder(product, amount) {
 						'WHERE id = ' +
 						product,
 					(err, res) => {
-						console.log(`Thanks for buying this shit your total is ${total}`);
+						console.log(`Thanks for buying this shit, your total is $${total}`);
 					}
 				);
 			}
